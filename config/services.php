@@ -30,4 +30,10 @@ return [
         'region' => env('AWS_DEFAULT_REGION', 'us-east-1'),
     ],
 
+    'discord' => [
+        'client_id' => env('827398507018190849'),
+        'client_secret' => env('G0TzwMQndKoJQD2_uf_OKc38Q0WKV2dx'),
+        'redirect' => '/auth/discord/callback',
+    ],
+
 ];
